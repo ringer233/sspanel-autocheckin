@@ -1,4 +1,4 @@
-# SSPanel 自动签到 无法多个机场签到
+# SSPanel 自动签到 无法多个机场签到  
 
 ![SSPanel_Auto_Checkin](https://github.com/isecret/sspanel-autocheckin/workflows/SSPanel_Auto_Checkin/badge.svg)
 
@@ -42,4 +42,3 @@ bash /path/to/ssp-autocheckin.sh
 ```bash
 24 10 * * * bash /path/to/ssp-autocheckin.sh >> /path/to/ssp-autocheckin.log 2>&1
 ```
-
