@@ -47,7 +47,7 @@ checkin_text="[${date}] ${checkin_status}"
 echo ${checkin_text}
 
 date=$(date '+%Y-%m-%d %H:%M:%S')
-if [ "${SCT7681Two7brCWfVZA7sSNzhOKCfE8S}" == "" ]; then
+if [ "${PUSH_KEY}" == "" ]; then
     push_status='"未配置推送 PUSH_KEY"'
 else
     text="SSPanel Auto Checkin 签到结果"
